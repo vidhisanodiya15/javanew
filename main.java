@@ -1,9 +1,9 @@
 public class main{
     public static void main(String[] args){
-        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
-cars[0] = "Opel";
-System.out.println(cars[3]);
-// Now outputs Opel instead of Volvo
+        int[][]myNumbers={{1,2,3,4},{5,6,7}};
+        // System.out.println(myNumbers[1][2]);
+        myNumbers[1][2]=9;
+        System.out.println(myNumbers[1][2]);
+
     }
 }
-    
