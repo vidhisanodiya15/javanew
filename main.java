@@ -1,8 +1,10 @@
 public class main{
-    static void myMethod(){
-        System.out.println("I just got executed!");
-    }
-    public static void main(String[] args){
-        myMethod();
-    }
+   static void myMethod(String fname){
+    System.out.println(fname + " Refsnes");
+   }
+   public static void main(String[] args){
+    myMethod("Liam");
+    myMethod("jenny");
+    myMethod("anu");
+   }
 }
