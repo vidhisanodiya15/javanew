@@ -9,3 +9,4 @@ public class Main {
     Level myVar = Level.MEDIUM;
     System.out.println(myVar);
     }
+}
