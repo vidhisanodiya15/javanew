@@ -1,17 +1,13 @@
-class A{
-    static int x=20;
-    int y=30;
-    private static int z=30;
-    static class B{
-        void get(){
-            System.out.println("x : "+x);
-            System.out.println("z : "+z);
-        }
-    }
-}
 public class FirstProgram{
-    public static void main(String[] args) {
-        A.B obj=new A.B();
-        obj.get();
+    public static void main(String[] args){
+        try{
+            int arr[]={1,2,3,5};
+            System.out.println(arr[10]);
+            
+        }catch(ArrayIndexOutOfBoxException e){
+            System.out.println("ArrayIndexOutOfBoxException");
+        }finally{
+            System.out.println("finally block");
+        }
     }
 }
