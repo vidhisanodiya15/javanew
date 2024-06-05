@@ -1,9 +1,11 @@
 public class main {
-    static void myMethod() {
-    System.out.println("Hello World!");
-    }
-
     public static void main(String[] args) {
-    myMethod();
+        // String name1 = "vidhi";
+        // String name2 = "sanodiya";
+        // System.out.println(name1 + " and " + name2);
+        String name = "aman";
+        String name2 = name.replace('a','w');
+        System.out.println(name2);
+        System.out.println(name);
     }
 }
